@@ -14,6 +14,8 @@ def last_element(arr)
   arr[-1]
 end  
 def first_element_with_array_methods(arr)
-  lasteElem = arr.shift
+  firstElem = arr.shift
 end
-
+def last_element_with_array_methods
+  lastElem = arr.pop
+end  
